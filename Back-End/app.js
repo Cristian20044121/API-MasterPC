@@ -13,6 +13,8 @@ const corsOptions = {
   optionsSuccessStatus: 200, // opcional
 };
 
+app.use(cors(corsOptions));
+
 app.get("/", (req,res)=>{
   res.send("API")
 });
