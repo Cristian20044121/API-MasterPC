@@ -8,7 +8,10 @@ const PORT = config.PORT;
 
 // Configura CORS para permitir solicitudes desde cualquier origen (en desarrollo)
 // Permitir solo solicitudes desde https://master-pc-tkxa-7wykw3w4x-cristian-caros-projects.vercel.app
-app.use(cors({ origin: 'https://master-pc-tkxa-198phowsd-cristian-caros-projects.vercel.app' }));
+const corsOptions = {
+  origin: 'https://master-pc-tkxa.vercel.app/',
+  optionsSuccessStatus: 200, // opcional
+};
 
 app.get("/", (req,res)=>{
   res.send("API")
