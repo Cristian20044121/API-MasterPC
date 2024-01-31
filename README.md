@@ -25,8 +25,8 @@ La aplicación se iniciará en el puerto especificado en tus variables de entorn
 
 ## API Endpoints
 
-- **GET     api/productos:** Obtiene la lista de todos los productos.
-- **GET     api/productos/:id:** Obtiene detalles de un producto específico por ID.
-- **POST    api/productos:** Crea un nuevo producto.
-- **PUT     api/productos/:id:** Actualiza los detalles de un producto existente.
-- **DELETE  api/productos/:id:** Elimina un producto específico.
+- **GET     api/products:** Obtiene la lista de todos los productos.
+- **GET     api/products/:id:** Obtiene detalles de un producto específico por ID.
+- **POST    api/products:** Crea un nuevo producto.
+- **PUT     api/products/:id:** Actualiza los detalles de un producto existente.
+- **DELETE  api/products/:id:** Elimina un producto específico.
