@@ -1,44 +1,32 @@
- <h1>API de MasterPC 🚀</h1>
+# API de MasterPC 🚀
 
-    <p>La API de MasterPC es una aplicación en Node.js construida para manejar operaciones CRUD (Crear, Leer, Actualizar, Borrar) en productos tecnológicos de la tienda online MasterPC. La API está conectada a una base de datos MongoDB Atlas para almacenar y recuperar información sobre los productos.</p>
+La API de MasterPC es una aplicación en Node.js construida para manejar operaciones CRUD (Crear, Leer, Actualizar, Borrar) en productos tecnológicos de la tienda online MasterPC. La API está conectada a una base de datos MongoDB Atlas para almacenar y recuperar información sobre los productos.
 
-    <h2>Características Principales</h2>
+## Características Principales
 
-    <ul>
-        <li><strong>Conexión a MongoDB Atlas:</strong> La API se conecta a una base de datos MongoDB alojada en MongoDB Atlas para almacenar y gestionar datos de productos.</li>
-        <li><strong>Operaciones CRUD:</strong> La API permite realizar las operaciones CRUD básicas (Crear, Leer, Actualizar, Borrar) en productos tecnológicos.</li>
-        <li><strong>Manejo de Rutas, Modelos y Controladores:</strong> La aplicación sigue una estructura organizativa clara con el uso de rutas para definir endpoints, modelos para representar la estructura de datos y controladores para manejar la lógica de negocio.</li>
-        <li><strong>Express y Servidor HTTP:</strong> Se utiliza Express.js para crear un servidor HTTP que escucha las solicitudes de la aplicación y maneja el enrutamiento.</li>
-        <li><strong>Control de Acceso (CORS):</strong> Se ha implementado un controlador de acceso (CORS) para gestionar las políticas de seguridad del navegador y permitir el acceso solo a una fuente específica.</li>
-    </ul>
+- **Conexión a MongoDB Atlas:** La API se conecta a una base de datos MongoDB alojada en MongoDB Atlas para almacenar y gestionar datos de productos.
+- **Operaciones CRUD:** La API permite realizar las operaciones CRUD básicas (Crear, Leer, Actualizar, Borrar) en productos tecnológicos.
+- **Manejo de Rutas, Modelos y Controladores:** La aplicación sigue una estructura organizativa clara con el uso de rutas para definir endpoints, modelos para representar la estructura de datos y controladores para manejar la lógica de negocio.
+- **Express y Servidor HTTP:** Se utiliza Express.js para crear un servidor HTTP que escucha las solicitudes de la aplicación y maneja el enrutamiento.
+- **Control de Acceso (CORS):** Se ha implementado un controlador de acceso (CORS) para gestionar las políticas de seguridad del navegador y permitir el acceso solo a una fuente específica.
 
-    <h2>Inicio Rápido</h2>
+## Inicio Rápido
 
-    <ol>
-        <li><strong>Instalación de Dependencias:</strong>
-            <code>npm install</code>
-        </li>
-        <li><strong>Configuración de Variables de Entorno:</strong> Asegúrate de configurar las variables de entorno necesarias en un archivo <code>.env</code>.</li>
-        <li><strong>Iniciar la Aplicación:</strong>
-            <code>npm start || node app</code>
-        </li>
-    </ol>
+1. **Instalación de Dependencias:** `npm install`
+2. **Configuración de Variables de Entorno:** Asegúrate de configurar las variables de entorno necesarias en un archivo `.env`.
+3. **Iniciar la Aplicación:** `npm start`
 
-    <p>La aplicación se iniciará en el puerto especificado en tus variables de entorno.</p>
+La aplicación se iniciará en el puerto especificado en tus variables de entorno.
 
-    <h2>Variables de Entorno</h2>
+## Variables de Entorno
 
-    <ul>
-        <li><strong>MONGODB_URI:</strong> URL de conexión a la base de datos MongoDB Atlas.</li>
-        <li><strong>PORT:</strong> Puerto en el que se ejecutará el servidor.</li>
-    </ul>
+- **MONGODB_URI:** URL de conexión a la base de datos MongoDB Atlas.
+- **PORT:** Puerto en el que se ejecutará el servidor.
 
-    <h2>API Endpoints</h2>
+## API Endpoints
 
-    <ul>
-        <li><strong>GET     api/products:</strong> Obtiene la lista de todos los productos.</li>
-        <li><strong>GET     api/products/:id:</strong> Obtiene detalles de un producto específico por ID.</li>
-        <li><strong>POST    api/products:</strong> Crea un nuevo producto.</li>
-        <li><strong>PUT     api/products/:id:</strong> Actualiza los detalles de un producto existente.</li>
-        <li><strong>DELETE  api/products/:id:</strong> Elimina un producto específico.</li>
-    </ul>
+- **GET /productos:** Obtiene la lista de todos los productos.
+- **GET /productos/:id:** Obtiene detalles de un producto específico por ID.
+- **POST /productos:** Crea un nuevo producto.
+- **PUT /productos/:id:** Actualiza los detalles de un producto existente.
+- **DELETE /productos/:id:** Elimina un producto específico.
