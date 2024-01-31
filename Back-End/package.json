@@ -5,7 +5,6 @@
   "description": "Página de ventas de productos técnologicos",
   "main": "index.js",
   "scripts": {
-  
     "start": "node app.js"
   },
   "repository": {

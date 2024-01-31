@@ -8,10 +8,15 @@ const PORT = config.PORT;
 
 // Configura CORS para permitir solicitudes desde cualquier origen (en desarrollo)
 // Permitir solo solicitudes desde https://master-pc-tkxa-7wykw3w4x-cristian-caros-projects.vercel.app
-app.use(cors())
+
+const whiteList = ['https://master-pc-tkxa.vercel.app']
+
+app.use(cors({origin: whiteList}))
+
 
 app.get("/", (req,res)=>{
   res.send("API")
+  console.log('Bienvenido')
 });
 
 app.use(express.json());
