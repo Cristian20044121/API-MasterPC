@@ -1,4 +1,4 @@
-API de MasterPC
+<h1>API de MasterPC</h1> <br>
 La API de MasterPC es una aplicación en Node.js construida para manejar operaciones CRUD (Crear, Leer, Actualizar, Borrar) en productos tecnológicos de la tienda online MasterPC. La API está conectada a una base de datos MongoDB Atlas para almacenar y recuperar información sobre los productos.
 
 Características Principales
