@@ -23,6 +23,31 @@ La aplicación se iniciará en el puerto especificado en tus variables de entorn
 - **MONGODB_URI:** URL de conexión a la base de datos MongoDB Atlas.
 - **PORT:** Puerto en el que se ejecutará el servidor.
 
+  
+## Estructura 
+
+```
+└── 📁API-masterPC
+    └── 📁Back-End
+        └── .gitignore
+        └── 📁api
+            └── products.js
+        └── app.js
+        └── config.js
+        └── 📁controllers
+            └── products.js
+        └── 📁models
+            └── 📁DB
+                └── mongoDB.js
+            └── products-mongodb.js
+            └── products.js
+        └── package-lock.json
+        └── package.json
+        └── 📁Routers
+            └── products.js
+    └── README.md
+```
+
 ## API Endpoints
 
 - **GET     api/products:** Obtiene la lista de todos los productos.
